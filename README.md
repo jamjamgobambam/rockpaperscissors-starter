@@ -6,7 +6,7 @@ This application is a rock, paper, scissors game where the user plays against th
 
 ### RockPaperScissors.java
 
-The `RockPaperScissors`` class orchestrates the game's flow, providing the framework for executing the game's logic, managing the camera and model interactions, and controlling the scene transitions. It incorporates the main game view, the end game view, and transitions between them based on the game's outcome.
+The `RockPaperScissors` class orchestrates the game's flow, providing the framework for executing the game's logic, managing the camera and model interactions, and controlling the scene transitions. It incorporates the main game view, the end game view, and transitions between them based on the game's outcome.
 
 **Suggested Modifications and New Features:**
 
@@ -14,7 +14,7 @@ The `RockPaperScissors`` class orchestrates the game's flow, providing the frame
 
 ### MainScene.java
 
-The `MainScene`` class manages the main interface where the game of Roc, Paper, Scissors is played. It displays the camera feed, the app's title, the computer's choice, the user's predicted gesture, and the corresponding confidence score. This class also provides feedback to the user in the form of text labels, spacers, and a loading animation during camera initialization.
+The `MainScene` class manages the main interface where the game of Roc, Paper, Scissors is played. It displays the camera feed, the app's title, the computer's choice, the user's predicted gesture, and the corresponding confidence score. This class also provides feedback to the user in the form of text labels, spacers, and a loading animation during camera initialization.
 
 **Suggested Modifications and New Features:**
 
@@ -23,7 +23,7 @@ The `MainScene`` class manages the main interface where the game of Roc, Paper, 
 
 ### GameOverScene.java
 
-The `GameOverScene`` class manages the game-over screen's interface and interactions. It presents the result of the game, allows the user to play again or exit the application, and manages the app's shutdown.
+The `GameOverScene` class manages the game-over screen's interface and interactions. It presents the result of the game, allows the user to play again or exit the application, and manages the app's shutdown.
 
 **Suggested Modifications and New Features:**
 
